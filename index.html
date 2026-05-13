@@ -1,0 +1,91 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ligação Química em 3 Modelos</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;650;750;850;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css"></head><body><header class="nav"><div class="container nav-inner"><a class="brand" href="index.html"><div class="brand-mark">⚛</div><div>Ligação Química<small>em 3 modelos</small></div></a><nav class="nav-links"><a class="active" href="index.html">Início</a><a class="" href="modelo1_octeto.html">1. Octeto</a><a class="" href="modelo2_eletronegatividade_geometria.html">2. Polaridade</a><a class="" href="modelo3_comportamento_real.html">3. Modelo real</a><a class="" href="desafio.html">Desafio</a></nav></div></header>
+<main>
+<section class="hero hero-v12"><div class="container hero-grid hero-grid-v12"><div class="hero-copy"><img src="assets/ben_ligacoes_transparente.png" class="hero-ben-left" alt="Ben, mascote da trilha, apresentando os modelos de ligação química"><span class="eyebrow">🧭 Trilha interativa de aprendizagem</span><h1>Ligação Química em 3 Modelos</h1><p class="lead">Do octeto ao comportamento real: você acompanha como elétrons e núcleos se reorganizam, por que a energia diminui quando uma ligação se forma e como isso afeta polaridade, ebulição e solubilidade.</p><div class="hero-actions"><a class="btn primary" href="#mapa">Explorar mapa mental</a><a class="btn green" href="#energia">Ver simulação de energia</a><a class="btn" href="desafio.html">Ir ao desafio final</a></div></div><div class="hero-card concept-card"><div class="concept-top"><span class="pill">ideia central</span><strong>Ligação = reorganização eletrônica + menor energia</strong></div><svg class="hero-molecule" viewBox="0 0 320 220"><g fill="none" stroke="#9ab8d9" stroke-width="7" stroke-linecap="round"><path d="M70 130 L145 65 L230 115 L190 180 L70 130"/><path d="M145 65 L190 180"/></g><g><circle cx="70" cy="130" r="20" fill="#1d72f3"/><circle cx="145" cy="65" r="22" fill="#0ea5a3"/><circle cx="230" cy="115" r="21" fill="#7c3aed"/><circle cx="190" cy="180" r="19" fill="#16a34a"/></g></svg><div class="formula-card formula-card-v12"><div class="eq">energia menor → maior estabilidade</div><p class="muted">A trilha mostra que a regra do octeto é útil, mas a explicação moderna da ligação envolve energia, distribuição eletrônica, geometria e interações.</p></div></div></div></section>
+
+<section id="mapa" class="section section-map-v13">
+  <div class="wide">
+    <div class="map-v13-wrap">
+      <div class="map-v13-title">
+        <span class="pill">mapa mental animado</span>
+        <h2>Da regra do octeto ao comportamento real</h2>
+        <p>Você percorre três modelos conectados. Cada etapa explica uma parte da ligação química e mostra por que avançamos de uma regra inicial para uma visão mais próxima do comportamento real da matéria.</p>
+      </div>
+
+      <div class="map-v13-canvas" aria-label="Mapa mental da trilha de ligação química">
+        <svg class="map-v13-lines" viewBox="0 0 1200 620" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <filter id="glowLine" x="-20%" y="-20%" width="140%" height="140%">
+              <feGaussianBlur stdDeviation="4" result="blur"/>
+              <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+            <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="#16a34a"></path>
+            </marker>
+            <marker id="arrowPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="#7c3aed"></path>
+            </marker>
+            <marker id="arrowOrange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="#f97316"></path>
+            </marker>
+          </defs>
+
+          <path class="v13-line v13-green" d="M600 272 C505 242 414 214 325 194" marker-end="url(#arrowGreen)"></path>
+          <path class="v13-line v13-purple" d="M600 272 C697 242 793 214 890 194" marker-end="url(#arrowPurple)"></path>
+          <path class="v13-line v13-orange" d="M600 325 C600 405 600 462 600 505" marker-end="url(#arrowOrange)"></path>
+
+          <path class="v13-flow v13-flow-a" d="M335 178 C450 92 752 92 866 178"></path>
+          <path class="v13-flow v13-flow-b" d="M875 252 C816 370 722 460 645 504"></path>
+        </svg>
+
+        <a class="map-v13-node map-v13-core" href="#energia">
+          <span class="v13-kicker">tema central</span>
+          <h3>Ligação Química</h3>
+          <p>Elétrons e núcleos se reorganizam até uma configuração de menor energia.</p>
+          <div class="v13-core-mini">menor energia → maior estabilidade</div>
+        </a>
+
+        <a class="map-v13-node map-v13-model map-v13-m1" href="modelo1_octeto.html">
+          <span class="v13-kicker v13-green-bg">modelo 1</span>
+          <h3>Regra do octeto</h3>
+          <p>Você começa pelos elétrons de valência, distribuição eletrônica e estruturas de Lewis.</p>
+          <div class="v13-subnodes">
+            <span>valência</span><span>Lewis</span><span>H₂O</span><span>NH₃</span><span>CH₄</span><span>NaCl</span><span>BF₃</span>
+          </div>
+          <strong class="v13-question">Quantas ligações se formam?</strong>
+        </a>
+
+        <a class="map-v13-node map-v13-model map-v13-m2" href="modelo2_eletronegatividade_geometria.html">
+          <span class="v13-kicker v13-purple-bg">modelo 2</span>
+          <h3>Eletronegatividade + geometria</h3>
+          <p>Você calcula ΔEN, visualiza a escala de tipo de ligação, interpreta dipolos e geometria.</p>
+          <div class="v13-subnodes">
+            <span>ΔEN</span><span>escala</span><span>dipolo</span><span>VSEPR</span><span>JSmol/3D</span><span>CO₂</span>
+          </div>
+          <strong class="v13-question">Como os elétrons são compartilhados?</strong>
+        </a>
+
+        <a class="map-v13-node map-v13-model map-v13-m3" href="modelo3_comportamento_real.html">
+          <span class="v13-kicker v13-orange-bg">modelo 3</span>
+          <h3>Comportamento real</h3>
+          <p>Você conecta ligação química a energia, interações, massa molar, ebulição, solubilidade e hidratação.</p>
+          <div class="v13-subnodes">
+            <span>ebulição</span><span>solubilidade</span><span>London</span><span>ligação H</span><span>rede iônica</span>
+          </div>
+          <strong class="v13-question">Como a substância se comporta?</strong>
+        </a>
+
+        <div class="map-v13-bridge map-v13-bridge-a">O octeto ajuda, mas não explica polaridade e geometria.</div>
+        <div class="map-v13-bridge map-v13-bridge-b">Polaridade não explica tudo: entram energia e interações.</div>
+
+        <div class="map-v13-ben">
+          <img src="assets/ben_ligacoes_transparente.png" alt="Ben, mascote da trilha">
+          <div class="map-v13-speech">Comece pelo Modelo 1 e avance até o comportamento real.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="energia" class="section"><div class="container"><div class="card glow"><div class="energy-layout"><div><span class="pill">simulação essencial</span><h2>Por que uma ligação estabiliza o sistema?</h2><p class="lead">Ao aproximar dois átomos, atrações entre elétrons e núcleos podem diminuir a energia potencial. Se os átomos chegam perto demais, repulsões núcleo-núcleo e elétron-elétron aumentam muito a energia.</p><p>Use o controle para aproximar os átomos. O ponto azul no gráfico mostra a energia potencial aproximada. O mínimo da curva representa uma distância de equilíbrio: é uma forma visual de entender por que <strong>menor energia significa maior estabilidade</strong>.</p><div class="note">Modelo qualitativo inspirado em curvas de energia potencial usadas para discutir ligação química. Não substitui cálculos quânticos, mas ajuda você a visualizar a ideia central.</div></div><div class="energy-box"><svg id="energyGraph" class="energy-graph" viewBox="0 0 640 300"><line x1="38" y1="262" x2="602" y2="262" stroke="#cbd5e1"/><line x1="38" y1="38" x2="38" y2="262" stroke="#cbd5e1"/><text x="315" y="292" text-anchor="middle" fill="#64748b" font-weight="800">distância internuclear (r)</text><text x="18" y="55" transform="rotate(-90 18 55)" fill="#64748b" font-weight="800">energia potencial U(r)</text><path id="energyPath" fill="none" stroke="#1d72f3" stroke-width="5" stroke-linecap="round"/><line x1="38" y1="196" x2="602" y2="196" stroke="#94a3b8" stroke-dasharray="8 8"/><circle id="energyMarker" r="9" fill="#7c3aed" stroke="#fff" stroke-width="4"/></svg><label><strong>Aproximar átomos</strong><input id="distanceSlider" type="range" min="0.75" max="3.05" step="0.01" value="1.12"></label><div class="atom-stage" id="atomStage"><div id="bondGlow" class="bond-glow"></div><div id="atomA" class="atom a">A</div><div id="atomB" class="atom b">B</div></div><div class="energy-readout"><div class="readout"><span>distância</span><strong id="distVal">--</strong></div><div class="readout"><span>energia</span><strong id="uVal">--</strong></div></div><p id="energyState" class="muted"></p></div></div></div></div></section>
+<section class="section"><div class="container"><h2>Escolha sua etapa</h2><div class="grid-3 path-cards"><article class="card model-card"><div class="num one">1</div><h3>Regra do octeto</h3><p>Você começa pelos elétrons de valência, distribuição eletrônica e estruturas de Lewis.</p><a class="btn" href="modelo1_octeto.html">Entrar no modelo 1</a></article><article class="card model-card"><div class="num two">2</div><h3>Eletronegatividade e geometria</h3><p>Você calcula ΔEN, interpreta dipolos e visualiza estruturas 3D com JSmol/fallback.</p><a class="btn" href="modelo2_eletronegatividade_geometria.html">Entrar no modelo 2</a></article><article class="card model-card"><div class="num three">3</div><h3>Comportamento real</h3><p>Você conecta ligação química a solubilidade, ponto de ebulição e forças intermoleculares.</p><a class="btn" href="modelo3_comportamento_real.html">Entrar no modelo 3</a></article></div></div></section>
+</main>
+<footer class="footer"><div class="container"><span>Material didático interativo - Química Geral</span><span>Modelo progressivo: octeto → eletronegatividade/geometria → propriedades reais</span></div></footer><script src="assets/app.js"></script></body></html>
